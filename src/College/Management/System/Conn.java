@@ -9,9 +9,9 @@ import java.sql.*;
  * @author monik
  */
 public class Conn {
-    private static final String url="jdbc:mysql://localhost:3306/monika";
+    private static final String url="jdbc:mysql://localhost:3306/collegemanagementsystem";
     private static final String root="root";
-    private static final String password="Mona@2618";
+    private static final String password="yourpassword";
 
        public static Connection conn(){
            
